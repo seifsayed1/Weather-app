@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: "Cairo", serif;
+}
+
+.card {
+    margin: 60px auto 0;
+    background: linear-gradient(135deg, #003366, #66B2FF);
+    width: fit-content;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.container .search {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container .search img {
+    width: 30px;
+    margin: 35px 25px 10px 0;
+    background-color: white;
+    border-radius: 15px;
+    padding: 7px;
+    cursor: pointer;
+}
+.container .search input {
+    background-color: transparent;
+    border: none;
+    margin: 35px 20px 10px 25px;
+    padding: 10px 15px 10px 10px;
+    background-color: white;
+    border-radius: 20px;
+}
+.container .search input:focus {
+    outline: none;
+}
+.weather img {
+    width: 150px;
+}
+.temp p {
+    color: white;
+    font-size: 50px;
+}
+.temp span {
+    color: white;
+    font-size: 40px;
+}
+.foot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 25px;
+    padding-bottom: 30px;
+}
+.foot img {
+    width: 30px;
+}
+.info {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: white;
+}
